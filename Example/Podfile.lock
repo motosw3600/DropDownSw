@@ -1,0 +1,16 @@
+PODS:
+  - DropDownSw (0.1.0)
+
+DEPENDENCIES:
+  - DropDownSw (from `../`)
+
+EXTERNAL SOURCES:
+  DropDownSw:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DropDownSw: 019d36eac74ea46eb42f2f95ecf31cb2c631c046
+
+PODFILE CHECKSUM: 30ad53343232453a70f28cc647eba2adff0f977a
+
+COCOAPODS: 1.11.2
