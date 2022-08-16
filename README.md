@@ -1,11 +1,15 @@
 # DropDownSw
 
-[![CI Status](https://img.shields.io/travis/motosw3600/DropDownSw.svg?style=flat)](https://travis-ci.org/motosw3600/DropDownSw)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/DropDownSw.svg?style=flat)](https://cocoapods.org/pods/DropDownSw)
-[![License](https://img.shields.io/cocoapods/l/DropDownSw.svg?style=flat)](https://cocoapods.org/pods/DropDownSw)
-[![Platform](https://img.shields.io/cocoapods/p/DropDownSw.svg?style=flat)](https://cocoapods.org/pods/DropDownSw)
 
 Simple DropDown implementaion View.
+
+## Requiredment
+
+- iOS 10.0+
+- Xcode 10.0+
+- Swift 5.0+
 
 ## Example
 
