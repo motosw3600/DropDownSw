@@ -12,10 +12,13 @@
 		221B7A1F8E65D75A2665530CC79BB210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2DCCBB0C5D941998317E4B2833D48AB9 /* Pods-DropDownSw_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E7EDCB571FE1EE002672FD52E8E9B /* Pods-DropDownSw_Example-dummy.m */; };
 		440E9260EAF7834D4D260C6BAB4AC1B5 /* Pods-DropDownSw_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB90D470845BDCE13DE939EF3D4EE40 /* Pods-DropDownSw_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		542E2168AD50C8ACCDE8478D4A602247 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D81C9274DF1C9B1D3D90D4DF1CC38 /* ReplaceMe.swift */; };
+		542E2168AD50C8ACCDE8478D4A602247 /* DropDownSw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D81C9274DF1C9B1D3D90D4DF1CC38 /* DropDownSw.swift */; };
 		6648F4C85A1168F1B2E884DA2B4D5DEC /* DropDownSw-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9663955C7D2B17AF6986E895BB4B2 /* DropDownSw-dummy.m */; };
 		779DC91D91B61FC1D64C690E1EB6217C /* DropDownSw-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE557D9E312E5340ACF1212A62493DF /* DropDownSw-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD5E66691170197FAC761A608CE9FDF9 /* Pods-DropDownSw_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DACE51E4C6573BE32F620273F87242 /* Pods-DropDownSw_Tests-dummy.m */; };
+		E9AE64C228AB812E001A6C08 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AE64C128AB812E001A6C08 /* DropDownCell.swift */; };
+		E9AE64D228AB8E42001A6C08 /* arrow.triangle.down.png in Resources */ = {isa = PBXBuildFile; fileRef = E9AE64D028AB8E42001A6C08 /* arrow.triangle.down.png */; };
+		E9AE64D328AB8E42001A6C08 /* arrow.triangle.up.png in Resources */ = {isa = PBXBuildFile; fileRef = E9AE64D128AB8E42001A6C08 /* arrow.triangle.up.png */; };
 		EEBE0E00AA4624A44EFC032FD0846E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,18 +41,18 @@
 
 /* Begin PBXFileReference section */
 		0453967BA6B8B56AECD2C8BED27B2611 /* DropDownSw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDownSw.debug.xcconfig; sourceTree = "<group>"; };
-		050D81C9274DF1C9B1D3D90D4DF1CC38 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DropDownSw/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		0CE2B661C5DF0174BCBA1B52CE9C24A7 /* DropDownSw.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DropDownSw.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		050D81C9274DF1C9B1D3D90D4DF1CC38 /* DropDownSw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownSw.swift; path = DropDownSw/Classes/DropDownSw.swift; sourceTree = "<group>"; };
+		0CE2B661C5DF0174BCBA1B52CE9C24A7 /* DropDownSw.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DropDownSw.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		12D491770369F9691237EBDE3BC74B8A /* Pods-DropDownSw_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DropDownSw_Example-Info.plist"; sourceTree = "<group>"; };
 		162E7EDCB571FE1EE002672FD52E8E9B /* Pods-DropDownSw_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DropDownSw_Example-dummy.m"; sourceTree = "<group>"; };
 		17DFB57819454331638728BE1429AB03 /* Pods-DropDownSw_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DropDownSw_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1DE557D9E312E5340ACF1212A62493DF /* DropDownSw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDownSw-umbrella.h"; sourceTree = "<group>"; };
 		1EC9663955C7D2B17AF6986E895BB4B2 /* DropDownSw-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDownSw-dummy.m"; sourceTree = "<group>"; };
-		339B6041A3965709684D367EC586CDD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		339B6041A3965709684D367EC586CDD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3EB90D470845BDCE13DE939EF3D4EE40 /* Pods-DropDownSw_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DropDownSw_Example-umbrella.h"; sourceTree = "<group>"; };
 		4543DD7C80A1B0E0D47B88C035D96515 /* Pods-DropDownSw_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DropDownSw_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		567BDF63BB5E79972E43788933D6C80A /* Pods-DropDownSw_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DropDownSw_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B69E46972DFD3A6CA69FEDE7539E68C /* Pods-DropDownSw_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DropDownSw_Tests"; path = Pods_DropDownSw_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B69E46972DFD3A6CA69FEDE7539E68C /* Pods_DropDownSw_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownSw_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		604584D316FEC465970FBC15D3BDA6CC /* Pods-DropDownSw_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DropDownSw_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		62D969AB10DB89D1A1E06B84757C2520 /* Pods-DropDownSw_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DropDownSw_Tests-Info.plist"; sourceTree = "<group>"; };
 		674C0AF58975D8B3C8162B4AF2B302F6 /* Pods-DropDownSw_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DropDownSw_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,11 +60,11 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73398A1CAA5318C07934575C058CAFEA /* Pods-DropDownSw_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DropDownSw_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		76DACE51E4C6573BE32F620273F87242 /* Pods-DropDownSw_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DropDownSw_Tests-dummy.m"; sourceTree = "<group>"; };
-		7721C81F8AC47E9D3C3245451E25DD78 /* Pods-DropDownSw_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DropDownSw_Example"; path = Pods_DropDownSw_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7721C81F8AC47E9D3C3245451E25DD78 /* Pods_DropDownSw_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownSw_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC26AEA8D0F4B449095C22F67D9662F /* Pods-DropDownSw_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DropDownSw_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		90D6BE9BF988D644C0748E83CA565B17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		90D6BE9BF988D644C0748E83CA565B17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9BF8DE98B94A21A65ED6C44C327D6197 /* Pods-DropDownSw_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DropDownSw_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE6BAD5DC9844FFD3D05E73F545FDBD /* Pods-DropDownSw_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DropDownSw_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A385BF2CE77153D332C623A3301548CF /* DropDownSw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDownSw.release.xcconfig; sourceTree = "<group>"; };
 		AC26965AEE09450CE32454A9C1652A23 /* DropDownSw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDownSw.modulemap; sourceTree = "<group>"; };
@@ -69,7 +72,10 @@
 		C9CFAB97C4CADE4887B68EF509AFF086 /* Pods-DropDownSw_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DropDownSw_Tests.modulemap"; sourceTree = "<group>"; };
 		E2086B1E347923A149F235A1EF0371E4 /* Pods-DropDownSw_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DropDownSw_Example.modulemap"; sourceTree = "<group>"; };
 		E721C03EAB945A4BFCB3FAC1C272E22E /* DropDownSw-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDownSw-prefix.pch"; sourceTree = "<group>"; };
-		E972BC76274B0A15EB740A9A639F7D6C /* DropDownSw */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDownSw; path = DropDownSw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E972BC76274B0A15EB740A9A639F7D6C /* DropDownSw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDownSw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AE64C128AB812E001A6C08 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDownSw/Classes/DropDownCell.swift; sourceTree = "<group>"; };
+		E9AE64D028AB8E42001A6C08 /* arrow.triangle.down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.triangle.down.png; path = DropDownSw/Assets/arrow.triangle.down.png; sourceTree = "<group>"; };
+		E9AE64D128AB8E42001A6C08 /* arrow.triangle.up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.triangle.up.png; path = DropDownSw/Assets/arrow.triangle.up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +134,10 @@
 		1E247D1E36E2023A1C22756B0B065499 /* DropDownSw */ = {
 			isa = PBXGroup;
 			children = (
-				050D81C9274DF1C9B1D3D90D4DF1CC38 /* ReplaceMe.swift */,
+				050D81C9274DF1C9B1D3D90D4DF1CC38 /* DropDownSw.swift */,
+				E9AE64C128AB812E001A6C08 /* DropDownCell.swift */,
+				E9AE64D028AB8E42001A6C08 /* arrow.triangle.down.png */,
+				E9AE64D128AB8E42001A6C08 /* arrow.triangle.up.png */,
 				C9884C0E5E627D950AA344DBBD4DE2E7 /* Pod */,
 				7508F3F2DF84A162120EBB7CE2079CD6 /* Support Files */,
 			);
@@ -162,9 +171,9 @@
 		7C1C33BE9EEC41D17F684E58F7095EB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E972BC76274B0A15EB740A9A639F7D6C /* DropDownSw */,
-				7721C81F8AC47E9D3C3245451E25DD78 /* Pods-DropDownSw_Example */,
-				5B69E46972DFD3A6CA69FEDE7539E68C /* Pods-DropDownSw_Tests */,
+				E972BC76274B0A15EB740A9A639F7D6C /* DropDownSw.framework */,
+				7721C81F8AC47E9D3C3245451E25DD78 /* Pods_DropDownSw_Example.framework */,
+				5B69E46972DFD3A6CA69FEDE7539E68C /* Pods_DropDownSw_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +278,7 @@
 			);
 			name = "Pods-DropDownSw_Tests";
 			productName = Pods_DropDownSw_Tests;
-			productReference = 5B69E46972DFD3A6CA69FEDE7539E68C /* Pods-DropDownSw_Tests */;
+			productReference = 5B69E46972DFD3A6CA69FEDE7539E68C /* Pods_DropDownSw_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88530C23A16E12A6336934145AC2643C /* DropDownSw */ = {
@@ -287,7 +296,7 @@
 			);
 			name = DropDownSw;
 			productName = DropDownSw;
-			productReference = E972BC76274B0A15EB740A9A639F7D6C /* DropDownSw */;
+			productReference = E972BC76274B0A15EB740A9A639F7D6C /* DropDownSw.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB37DD041B38CD017840F9CBB2217E20 /* Pods-DropDownSw_Example */ = {
@@ -306,7 +315,7 @@
 			);
 			name = "Pods-DropDownSw_Example";
 			productName = Pods_DropDownSw_Example;
-			productReference = 7721C81F8AC47E9D3C3245451E25DD78 /* Pods-DropDownSw_Example */;
+			productReference = 7721C81F8AC47E9D3C3245451E25DD78 /* Pods_DropDownSw_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +325,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,6 +366,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AE64D328AB8E42001A6C08 /* arrow.triangle.up.png in Resources */,
+				E9AE64D228AB8E42001A6C08 /* arrow.triangle.down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +379,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6648F4C85A1168F1B2E884DA2B4D5DEC /* DropDownSw-dummy.m in Sources */,
-				542E2168AD50C8ACCDE8478D4A602247 /* ReplaceMe.swift in Sources */,
+				E9AE64C228AB812E001A6C08 /* DropDownCell.swift in Sources */,
+				542E2168AD50C8ACCDE8478D4A602247 /* DropDownSw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,8 +636,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

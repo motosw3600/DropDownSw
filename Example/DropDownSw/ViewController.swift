@@ -7,18 +7,32 @@
 //
 
 import UIKit
+import DropDownSw
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupDropDownSw()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func setupDropDownSw() {
+        let dropDown = DropDownSw()
+        dropDown.delegate = self
+        dropDown.addItem("one")
+        dropDown.addItem("two")
+        dropDown.addItem("three")
+        view.addSubview(dropDown)
+        
+        dropDown.translatesAutoresizingMaskIntoConstraints = false
+        dropDown.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        dropDown.topAnchor.constraint(equalTo: view.topAnchor, constant: 200).isActive = true
     }
+}
 
+extension ViewController: DropDownSwDelegate {
+    func tapItem(index: Int) {
+        print(index)
+    }
 }
 
