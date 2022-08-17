@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DropDownSw'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple DropDown implementaion View.'
   s.swift_version    = '5.0'
   s.homepage         = 'https://github.com/motosw3600/DropDownSw'
@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/motosw3600/DropDownSw.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'DropDownSw/Classes/**/*'
+  s.resource_bundles = {
+    'DropDownSW' => ['DropDownSw/Assets/*.png']
+  }
 end
