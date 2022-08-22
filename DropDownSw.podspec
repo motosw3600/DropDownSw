@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DropDownSw'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Simple DropDown implementaion View.'
   s.swift_version    = '5.0'
   s.homepage         = 'https://github.com/motosw3600/DropDownSw'

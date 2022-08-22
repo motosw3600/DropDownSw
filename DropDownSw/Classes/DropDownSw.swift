@@ -27,7 +27,7 @@ open class DropDownSw: UIView {
     private var isCollapsed: Bool = true
     private var items: [String] = []
     private var dropDownHeight: NSLayoutConstraint?
-    public var delegate: DropDownSwDelegate?
+    public weak var delegate: DropDownSwDelegate?
     
     public init(mainColor: UIColor? = nil, itemColor: UIColor? = nil, titleColor: UIColor? = nil,
                 itemTextColor: UIColor? = nil, title: String? = nil, mainFont: UIFont? = nil,
@@ -150,6 +150,6 @@ extension DropDownSw: UITableViewDataSource, UITableViewDelegate {
     }
 }
 
-public protocol DropDownSwDelegate {
+public protocol DropDownSwDelegate: AnyObject {
     func tapItem(index: Int)
 }
